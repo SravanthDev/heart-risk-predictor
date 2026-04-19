@@ -1,0 +1,22 @@
+# Secrets — NEVER commit
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+
+# FAISS index is committed intentionally, so NOT ignored here
+# data/faiss_index/
